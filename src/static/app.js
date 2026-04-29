@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
           <div class="participants-section">
-            <strong>Participants:</strong>
-            ${details.participants.length > 0 ? `<ul class="participants-list">${details.participants.map(email => `<li><a href="mailto:${email}" class="participant-email">${email}</a> <button class="delete-btn" data-email="${email}" data-activity="${name}" title="Unregister">×</button></li>`).join('')}</ul>` : '<p class="no-participants">No participants yet.</p>'}
+            <strong>Participants</strong>
+            ${details.participants.length > 0 ? `<ul class="participants-list">${details.participants.map(email => `<li>${email} <button class="delete-btn" data-email="${email}" data-activity="${name}" title="Unregister">×</button></li>`).join('')}</ul>` : '<p class="no-participants">No participants yet.</p>'}
           </div>
         `;
 
