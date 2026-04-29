@@ -51,29 +51,41 @@ activities = {
         "max_participants": 20,
         "participants": ["mia@mergington.edu", "carlos@mergington.edu"]
     },
+    "Basketball Team": {
+        "description": "Competitive basketball practices and games",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["alex@mergington.edu", "ryan@mergington.edu"]
+    },
+    "Soccer Club": {
+        "description": "Soccer training and friendly matches",
+        "schedule": "Wednesdays and Saturdays, 3:00 PM - 4:30 PM",
+        "max_participants": 22,
+        "participants": ["isabella@mergington.edu", "jason@mergington.edu"]
+    },
     "Art Club": {
         "description": "Explore painting, drawing, and other visual arts",
-        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 18,
-        "participants": ["ava@mergington.edu", "ben@mergington.edu"]
+        "schedule": "Mondays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["ava@mergington.edu", "liam@mergington.edu"]
     },
     "Drama Club": {
-        "description": "Acting, stagecraft, and theater production",
-        "schedule": "Tuesdays and Thursdays, 5:00 PM - 6:30 PM",
-        "max_participants": 25,
+        "description": "Theater productions and acting workshops",
+        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
         "participants": ["zoe@mergington.edu", "ethan@mergington.edu"]
     },
-    "Science Club": {
-        "description": "Hands-on experiments and STEM exploration",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 20,
+    "Debate Club": {
+        "description": "Develop public speaking and argumentation skills",
+        "schedule": "Thursdays, 3:30 PM - 4:30 PM",
+        "max_participants": 16,
         "participants": ["noah@mergington.edu", "ella@mergington.edu"]
     },
-    "Debate Team": {
-        "description": "Build public speaking skills through competitive debate",
-        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
-        "max_participants": 16,
-        "participants": ["logan@mergington.edu", "sophia@mergington.edu"]
+    "Science Club": {
+        "description": "Conduct experiments and explore scientific concepts",
+        "schedule": "Fridays, 4:00 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": ["logan@mergington.edu", "aria@mergington.edu"]
     }
 }
 
