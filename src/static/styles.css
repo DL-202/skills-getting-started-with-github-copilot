@@ -120,6 +120,17 @@ section h3 {
   color: #b71c1c;
 }
 
+.participant-email {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.participant-email:hover {
+  color: #0052a3;
+  text-decoration: underline;
+}
+
 .no-participants {
   font-style: italic;
   color: #777;
